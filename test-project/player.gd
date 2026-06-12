@@ -37,13 +37,13 @@ func _process(delta: float) -> void:
 	
 # Input mapping can be found in Project -> Project Settings -> Input Map
 # These 4 inputs were manually created there
-	if Input.is_action_just_pressed("move_right"):
+	if Input.is_action_pressed("move_right"):
 		velocity.x += 1
-	if Input.is_action_just_pressed("move_up"):
+	if Input.is_action_pressed("move_up"):
 		velocity.y -= 1
-	if Input.is_action_just_pressed("move_down"):
+	if Input.is_action_pressed("move_down"):
 		velocity.y += 1
-	if Input.is_action_just_pressed("move_left"):
+	if Input.is_action_pressed("move_left"):
 		velocity.x -= 1
 # Note that up moves in negative direction and down moves in positive direction
 # This is standard in computer graphics and game engines
