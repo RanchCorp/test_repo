@@ -44,7 +44,6 @@ color = Color(0.64705884, 0.8392157, 0.654902, 1)
 [node name="Player" parent="." unique_id=1732559277 instance=ExtResource("2_h2yge")]
 
 [node name="MobTimer" type="Timer" parent="." unique_id=605041280]
-wait_time = 0.5
 
 [node name="ScoreTimer" type="Timer" parent="." unique_id=1001297331]
 
